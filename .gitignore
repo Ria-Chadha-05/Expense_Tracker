@@ -6,3 +6,5 @@ expenses.txt
 build/
 .DS_Store
 Thumbs.db
+expenses.txt
+summary.csv
