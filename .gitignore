@@ -1,0 +1,8 @@
+*.o
+*.exe
+*.out
+*.csv
+expenses.txt
+build/
+.DS_Store
+Thumbs.db
