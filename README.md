@@ -10,7 +10,28 @@ Project Overview -
 3. Set and track monthly budget limits  
 4. Receive real-time overspending alerts  
 5. Export data to CSV format  
-6. Pie chart visualization  
+6. Pie chart visualization
+
+📌 How to Compile and Run
+
+1. Make sure you have a C++ compiler (like g++) installed.
+2. Compile the code:
+
+    ```sh
+    g++ ExpenseTracker.cpp -o ExpenseTracker
+    ```
+
+3. Run the program:
+
+    ```sh
+    ./ExpenseTracker
+    ```
+
+📌 File descriptions
+
+- `ExpenseTracker.cpp` — Main C++ source code
+- `expenses.txt` — Auto-generated file to store expenses (do not edit manually)
+- `summary.csv` — Generated when you export summary
 
 📌 Tech Stack
 
@@ -35,10 +56,9 @@ Early-stage personal finance apps
 
 📌 Future Improvements
 
-> Use SQLite/MySQL for more robust data storage  
-> Add login system with password protection  
-> Generate weekly/monthly graphs and insights  
-> Build mobile app integration (via API)  
-> Enable real-time cloud sync
->
-> 
+Use SQLite/MySQL for more robust data storage  
+Add login system with password protection <br>
+Generate weekly/monthly graphs and insights  
+Build mobile app integration (via API)  
+Enable real-time cloud sync
+
